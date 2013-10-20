@@ -7,12 +7,18 @@
 //
 
 #import "AppDelegate.h"
+#import "TempConverterViewCtrl.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    TempConverterViewCtrl *tempCtrl = [[TempConverterViewCtrl alloc] init];
+    UINavigationController *navCtrl = [[UINavigationController alloc] initWithRootViewController:tempCtrl];
+    self.window.rootViewController = navCtrl;
+    
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];

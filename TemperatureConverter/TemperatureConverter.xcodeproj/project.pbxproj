@@ -19,6 +19,8 @@
 		B0D79B0D180A5EF100236C4E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D79AF5180A5EF100236C4E /* UIKit.framework */; };
 		B0D79B15180A5EF100236C4E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0D79B13180A5EF100236C4E /* InfoPlist.strings */; };
 		B0D79B17180A5EF100236C4E /* TemperatureConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D79B16180A5EF100236C4E /* TemperatureConverterTests.m */; };
+		B0D79B23180A65B000236C4E /* TempConverterViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D79B21180A65B000236C4E /* TempConverterViewCtrl.m */; };
+		B0D79B24180A65B000236C4E /* TempConverterViewCtrl.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0D79B22180A65B000236C4E /* TempConverterViewCtrl.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		B0D79B12180A5EF100236C4E /* TemperatureConverterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TemperatureConverterTests-Info.plist"; sourceTree = "<group>"; };
 		B0D79B14180A5EF100236C4E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B0D79B16180A5EF100236C4E /* TemperatureConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TemperatureConverterTests.m; sourceTree = "<group>"; };
+		B0D79B20180A65B000236C4E /* TempConverterViewCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TempConverterViewCtrl.h; sourceTree = "<group>"; };
+		B0D79B21180A65B000236C4E /* TempConverterViewCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TempConverterViewCtrl.m; sourceTree = "<group>"; };
+		B0D79B22180A65B000236C4E /* TempConverterViewCtrl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TempConverterViewCtrl.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +82,9 @@
 		B0D79AE5180A5EF100236C4E = {
 			isa = PBXGroup;
 			children = (
+				B0D79B20180A65B000236C4E /* TempConverterViewCtrl.h */,
+				B0D79B21180A65B000236C4E /* TempConverterViewCtrl.m */,
+				B0D79B22180A65B000236C4E /* TempConverterViewCtrl.xib */,
 				B0D79AF7180A5EF100236C4E /* TemperatureConverter */,
 				B0D79B10180A5EF100236C4E /* TemperatureConverterTests */,
 				B0D79AF0180A5EF100236C4E /* Frameworks */,
@@ -220,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0D79AFC180A5EF100236C4E /* InfoPlist.strings in Resources */,
+				B0D79B24180A65B000236C4E /* TempConverterViewCtrl.xib in Resources */,
 				B0D79B04180A5EF100236C4E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0D79B02180A5EF100236C4E /* AppDelegate.m in Sources */,
+				B0D79B23180A65B000236C4E /* TempConverterViewCtrl.m in Sources */,
 				B0D79AFE180A5EF100236C4E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
